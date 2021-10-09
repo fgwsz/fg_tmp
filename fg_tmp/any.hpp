@@ -6,7 +6,7 @@
 #include <type_traits>
 #include "static_reflection.hpp"
 NAMESPACE_BEGIN(fg_tmp)
-// 万能数据类型
+// 万能数据类型 Any
 struct Any {
 private:
 	enum class Tag   { VOID,VAL, PTR, REF };
